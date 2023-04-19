@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  font-weight: bold;
+}

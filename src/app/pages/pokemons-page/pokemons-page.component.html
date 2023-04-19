@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <div *ngFor="let pokemon of pokemons$ | async" class="pokemon">
+    <img [src]="pokemon.img" [alt]="pokemon.name" width="160" height="auto" />
+    <span class="pokemon-name">
+      {{ pokemon.name }}
+    </span>
+  </div>
+</div>
