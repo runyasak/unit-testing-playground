@@ -33,7 +33,7 @@ describe('PokemonsPageComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should call getPokemons', () => {
+  it('should render pokemon', () => {
     expect(fixture.nativeElement.textContent).toMatch(/hello world/i);
   });
 });
